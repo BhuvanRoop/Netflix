@@ -1,0 +1,40 @@
+*{  
+    /* background-color: #111; */
+    margin:0px ;
+    box-sizing: border-box;
+}
+.show{
+    margin-left: 20px;
+    color: aliceblue;
+}
+.firstrow{
+    position: relative;
+    background-color: #111;
+    top: 80px;
+    margin-left: 20px;
+    margin-bottom: 80px;
+    color: aliceblue;
+}
+.show_post{
+    display: flex ;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px ;
+    margin-left: 2.6%;
+    margin-right: 4%;
+    scroll-behavior: smooth;
+}
+.show_post::-webkit-scrollbar{
+    display: none;
+}
+.show_img{
+    cursor: pointer;
+    object-fit: contain;
+    margin-right: 17px;
+    width: 100%;
+    max-height: 100px;
+    transition: transform 600ms;
+}
+.show_img:hover{
+    transform: scale(1.15);
+}

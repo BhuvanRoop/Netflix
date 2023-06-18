@@ -1,0 +1,40 @@
+*{
+    margin:0px ;
+    box-sizing: border-box;
+}
+.row{
+    margin-left: 20px;
+    color: aliceblue;
+}
+.row_post{
+    display: flex ;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px ;
+    margin-left: 2.6%;
+    margin-right: 4%;
+    scroll-behavior: smooth;
+}
+.row_post::-webkit-scrollbar{
+    display: none;
+}
+.row_img{
+    cursor: pointer;
+    object-fit: contain;
+    margin-right: 17px;
+    width: 100%;
+    max-height: 100px;
+    transition: transform 600ms;
+}
+.row_img:hover{
+    transform: scale(1.15);
+}
+.row_largeimg{
+    max-height: 200px;
+
+}
+.row_largeimg:hover{
+    margin-right: 15px;
+    transform: scale(1.18);
+    
+}

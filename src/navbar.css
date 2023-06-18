@@ -1,0 +1,61 @@
+.nav{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    display: flex;
+    box-sizing: border-box;
+    padding: 20px;
+    justify-content: space-between;
+    
+    z-index: 1;
+}
+.nav_black{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    display: flex;
+    box-sizing: border-box;
+    padding: 20px;
+    justify-content: space-between;
+    z-index: 1;
+    background-color: black;
+}
+
+
+.logo{
+    margin-left: 2rem;
+    object-fit: contain;
+    width: 80px;
+    display: inline-block;
+    cursor: pointer;
+    
+    
+}
+.avatar{
+    object-fit: contain;
+    width: 30px;
+    cursor: pointer;
+}
+.tags{
+    padding-top: 0.3rem;
+    color: aliceblue;
+    display: flex;
+    list-style: none;
+    margin-left: 2rem;
+}
+.tags li a{
+    color: darkgray;
+    text-decoration: none;
+}
+.tags li{
+    margin-right: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.tags li a:hover{
+    color: white;
+}
+.logo_tags{
+    display: flex;
+    
+}
