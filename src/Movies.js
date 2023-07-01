@@ -37,7 +37,8 @@ function Movies(props) {
     <div className='movie'>
         <h2 className='movie_title'>{props.title}</h2>
         
-          <div className='movie_post'>
+          <div className='movie_post'
+            data-aos="fade-up">
             {movie.map((item)=>(
               <img  
                 className='movie_img'

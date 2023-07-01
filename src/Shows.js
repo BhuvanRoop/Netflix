@@ -37,7 +37,8 @@ function Shows(props) {
     <div className={props.firstRow?'firstrow':'show'}>
         <h2 className='show_title'>{props.title}</h2>
         
-          <div className='show_post'>
+          <div className='show_post'
+            data-aos="fade-up">
             {show.map((item)=>(
               <img  
                 className='show_img'
