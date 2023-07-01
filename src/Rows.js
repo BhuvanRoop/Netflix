@@ -37,7 +37,9 @@ function Rows(props) {
     <div className='row'>
         <h2 className='row_title'>{props.title}</h2>
         
-          <div className='row_post'>
+          <div className='row_post'
+            data-aos="fade-up"
+          >
             {movie.map((item)=>(
               <img  
                 className={`row_img ${props.isLargeRow && 'row_largeimg'}`}

@@ -2,17 +2,6 @@
     margin:0px ;
     box-sizing: border-box;
 }
-/* @media (min-width:800px){
-    .row_title{
-        font-size: 1.5rem
-    }
-    .row_img{
-        max-height: 4440px;
-    }
-    .row_largeimg{
-        max-height: 240px;
-    }
-} */
 @media (min-width:2000px){
     .row_title{
         font-size: 2rem

@@ -2,11 +2,21 @@
 <html lang="en">
   <head>
     <title>Netflix</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
    
   </head>
 
   <body>
     <div id="root"></div>
     <script src="../src/index.js" type="text/jsx"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 140, 
+        delay: 0, 
+        duration: 400
+      });
+    </script>
   </body>
 </html>
