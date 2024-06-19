@@ -11,10 +11,6 @@ function Navbar() {
             handleShow(true);
         }else handleShow(false);
       });
-    
-      // return () => {
-      //   window.removeEventListener("scroll");
-      // };
     }, [])
     
 
@@ -23,11 +19,11 @@ function Navbar() {
         <div className={`nav ${show && "nav_black"}`}>
             <div className='logo_tags'>
 
-           <Link to='/'> <img className='logo'
-            src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1198px-Netflix_2015_logo.svg.png?20190206123158'
-            alt='Netflix'
-            />
-            </Link>
+              <Link to='/'> <img className='logo'
+                src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1198px-Netflix_2015_logo.svg.png?20190206123158'
+                alt='Netflix'
+                />
+              </Link>
             <div className='tags'>
                 <li>
                   <NavLink to='/'>Home</NavLink>   

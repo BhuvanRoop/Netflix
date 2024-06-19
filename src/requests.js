@@ -1,4 +1,3 @@
-import React from 'react'
 
 const requests={
     fetchTrending:`https://api.themoviedb.org/3/movie/popular?api_key=123bfda0107841fdca36072a39a2dcb7&language=en-US&page=1`,

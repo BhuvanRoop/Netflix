@@ -12,7 +12,6 @@ import { Route, Routes } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      {/* <Routes></Routes> */}
       <Navbar/>
       <Routes>
         <Route path='/' element={
@@ -235,40 +234,6 @@ function App() {
         }/>
         
       </Routes>
-      {/* <Rows
-      title="Trending"
-      fetchlink={requests.fetchTrending}
-      isLargeRow 
-      /> */}
-      {/* <Rows
-      title="Up Coming"
-      fetchlink={requests.fetchUpComing}
-      /> */}
-      {/* <Rows
-      title="Top Rated"
-      fetchlink={requests.fetchTopRted}
-      /> */}
-      {/* <Rows
-      title="Airing Today"
-      fetchlink={requests.fetchAiringToday}
-      /> */}
-      {/* <Rows
-      title="Romance Movies"
-      fetchlink={requests.fetchRomanceMovies}
-      />
-      <Rows
-      title="Horror Movies"
-      fetchlink={requests.fetchHorrorMovies}
-      />
-      <Rows
-      title="Comedy Movies"
-      fetchlink={requests.fetchComedyMovies}
-      />
-      <Rows
-      title="Documentaries"
-      fetchlink={requests.fetchDocumentaries}
-      /> */}
-
     </div>
   );
 }

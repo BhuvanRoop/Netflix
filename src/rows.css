@@ -59,10 +59,6 @@
 }
 
 
-
-
-
-
 .row{
     margin-left: 20px;
     color: aliceblue;
@@ -91,10 +87,6 @@
 .row_img:hover{
     transform: scale(1.15);
 }
-/* .row_largeimg{
-    /* max-height: 200px; */
-
-/* }  */
 .row_largeimg:hover{
     margin-right: 15px;
     transform: scale(1.18);

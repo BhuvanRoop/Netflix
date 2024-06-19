@@ -3,8 +3,10 @@ import "./banner.css"
 import axios from "axios";
 import React, { useEffect, useState } from 'react'
 
+
 function Banner() {
     const [banner,setBanner]=useState([]);
+
     useEffect(()=>{
         async function fetchData(ban){
             const req=await axios.get(requests.fetchTrending);
@@ -13,7 +15,7 @@ function Banner() {
         }
         fetchData();
 
-},[]);
+    },[]);
     function dots(str,n){
         if(str?.length>n){
             str=str.substr(0,n-1)+"..."
@@ -29,14 +31,8 @@ function Banner() {
     >
         <div className="banner_contents">
             <h1 className="banner.title">{banner.title}</h1>
-            <button className="banner_butt">
-                 Play
-            </button>
-            <button className="banner_butt">
-                My List
-            </button>
             <p className="banner_desc">{banner.overview}
-            {dots(banner.overview,10)}</p>
+            {dots(banner.overview,5)}</p>
             <div className="banner_fade">
 
             </div>
