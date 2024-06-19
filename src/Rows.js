@@ -43,7 +43,7 @@ function Rows(props) {
   
 
     function handleClick(title){
-      const url = "https://netflix-lemon-one.vercel.app/";
+      const url = "http://localhost:3000";
       if(trailerUrl){
         setTrailerUrl('');
         setRecMovies([])
@@ -102,7 +102,7 @@ function Rows(props) {
         {trailerUrl &&
         <>
           <YouTube videoId={trailerUrl} opts={opts} autoplay />
-          <h1 className='row_title' style={{marginTop:'20px',fontSize:'30px'}}>Similar Movies and Show</h1>
+          <h1 className='row_title' style={{marginTop:'20px',fontSize:'30px'}}>Similar Movies and Shows</h1>
           <div className='row_post'>
             {movielist.map((item)=>(
               <div style={{display:'flex',flexDirection:"column",textAlign:'center'}}>
