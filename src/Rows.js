@@ -43,7 +43,7 @@ function Rows(props) {
   
 
     function handleClick(title){
-      const url = "http://localhost:3000";
+      const url = "https://netflix-lemon-one.vercel.app/";
       if(trailerUrl){
         setTrailerUrl('');
         setRecMovies([])

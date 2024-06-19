@@ -47,7 +47,7 @@ function Shows(props) {
 
     function handleClick(title){
       // console.log(title)
-      const url = "http://localhost:3000";
+      const url = "https://netflix-lemon-one.vercel.app/";
       if(trailerUrl){
         setTrailerUrl('');
       }
